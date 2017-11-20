@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+  <title>无标题文档</title>
+  <script type="text/javascript" src="src/assets/js/jquery-1.8.3.min.js"></script>
+  <script type="text/javascript">
+
+    $(document).ready(function(){
+      $("#each li").click(
+        function() {
+          $(this).css("background","#FF0000").siblings().css("background","#ffffff");
+        });
+
+    });
+  </script>
+
+  <style type="text/css">
+
+  </style>
+</head>
+
+<body>
+<div id="each">
+  <ul>
+    <li>111111111111111111111111</li>
+    <li>222222222222222222222222</li>
+    <li>333333333333333333333333</li>
+    <li>444444444444444444444444</li>
+    <li>555555555555555555555555</li>
+    <li>666666666666666666666666</li>
+    <li>777777777777777777777777</li>
+  </ul>
+</div>
+</body>
+</html>
